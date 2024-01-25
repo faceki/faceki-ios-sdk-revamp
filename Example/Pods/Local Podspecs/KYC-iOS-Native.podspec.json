@@ -1,0 +1,47 @@
+{
+  "name": "KYC-iOS-Native",
+  "version": "0.7.0",
+  "summary": "This library use to scan docs of user and validate KYC",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/faceki/KYC-iOS-Native",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "faceki": "info@faceki.com"
+  },
+  "source": {
+    "git": "https://github.com/faceki/KYC-iOS-Native.git",
+    "tag": "0.7.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "KYC-iOS-Native/Classes/**/*",
+  "resources": "KYC-iOS-Native/Assets/**",
+  "resource_bundles": {
+    "Resources": [
+      "KYC-iOS-Native/MainFACEKI.{png,storyboard,lproj,gif}",
+      "KYC-iOS-Native/Assets/ex-id-card.{png,jpg}",
+      "KYC-iOS-Native/Assets/selfieGuide.{png,jpg}",
+      "KYC-iOS-Native/Assets/oval_overlay.{png,jpg}",
+      "KYC-iOS-Native/Assets/lottieFail.{json}",
+      "KYC-iOS-Native/Assets/lottieFirstLoading.{json}",
+      "KYC-iOS-Native/Assets/lottieGuidance.{json}",
+      "KYC-iOS-Native/Assets/lottieLoading.{json}",
+      "KYC-iOS-Native/Assets/lottieSuccess.{json}"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "lottie-ios": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

@@ -1,0 +1,6 @@
+framework module KYC_iOS_Native {
+  umbrella header "KYC-iOS-Native-umbrella.h"
+
+  export *
+  module * { export * }
+}

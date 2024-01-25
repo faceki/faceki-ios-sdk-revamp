@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'KYC-iOS-Native_Example' do
+  pod 'KYC-iOS-Native', :path => '../'
+
+  target 'KYC-iOS-Native_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,23 @@
+PODS:
+  - KYC-iOS-Native (0.7.0):
+    - lottie-ios
+  - lottie-ios (4.3.4)
+
+DEPENDENCIES:
+  - KYC-iOS-Native (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  KYC-iOS-Native:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KYC-iOS-Native: 4593ccc2650fa7705da42fba6ee05e1c9fc99078
+  lottie-ios: 3d98679b41fa6fd6aff2352b3953dbd3df8a397e
+
+PODFILE CHECKSUM: 7b7af092b22bedf2edee9c111e1fc690d6732135
+
+COCOAPODS: 1.12.0
