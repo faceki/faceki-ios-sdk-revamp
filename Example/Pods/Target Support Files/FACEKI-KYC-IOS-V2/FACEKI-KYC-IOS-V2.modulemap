@@ -1,6 +1,0 @@
-framework module FACEKI_KYC_IOS_V2 {
-  umbrella header "FACEKI-KYC-IOS-V2-umbrella.h"
-
-  export *
-  module * { export * }
-}

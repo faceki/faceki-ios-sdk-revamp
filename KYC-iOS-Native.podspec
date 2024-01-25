@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'faceki' => 'tech@faceki.com' }
   s.source           = { :git => 'https://github.com/faceki/faceki-ios-sdk-revamp.git', :tag => s.version.to_s }
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
   s.ios.deployment_target = '13.0'
   s.source_files = 'KYC-iOS-Native/Classes/**/*'
   s.resources = 'KYC-iOS-Native/Assets/**'
