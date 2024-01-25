@@ -1,23 +1,28 @@
 PODS:
-  - KYC-iOS-Native (0.7.0):
+  - FACEKI-KYC-IOS-V2 (2.0.0):
     - lottie-ios
-  - lottie-ios (4.3.4)
+  - lottie-ios (4.3.3)
 
 DEPENDENCIES:
-  - KYC-iOS-Native (from `../`)
+  - FACEKI-KYC-IOS-V2 (from `https://github.com/faceki/faceki-ios-sdk-revamp.git`)
 
 SPEC REPOS:
   trunk:
     - lottie-ios
 
 EXTERNAL SOURCES:
-  KYC-iOS-Native:
-    :path: "../"
+  FACEKI-KYC-IOS-V2:
+    :git: https://github.com/faceki/faceki-ios-sdk-revamp.git
+
+CHECKOUT OPTIONS:
+  FACEKI-KYC-IOS-V2:
+    :commit: d249f1146261d25bafaa2c29b0cc60f36abab7e6
+    :git: https://github.com/faceki/faceki-ios-sdk-revamp.git
 
 SPEC CHECKSUMS:
-  KYC-iOS-Native: 4593ccc2650fa7705da42fba6ee05e1c9fc99078
-  lottie-ios: 3d98679b41fa6fd6aff2352b3953dbd3df8a397e
+  FACEKI-KYC-IOS-V2: 6d3660746d1f28ba17b0189852bde0abdce11ba7
+  lottie-ios: 25e7b2675dad5c3ddad369ac9baab03560c5bfdd
 
-PODFILE CHECKSUM: 7b7af092b22bedf2edee9c111e1fc690d6732135
+PODFILE CHECKSUM: f9ef51d1e24a38fad874ad23fdef793b85764689
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1

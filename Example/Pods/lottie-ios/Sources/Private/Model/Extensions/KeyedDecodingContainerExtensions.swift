@@ -9,9 +9,6 @@ protocol ClassFamily: Decodable {
   /// The discriminator key.
   static var discriminator: Discriminator { get }
 
-  /// The "unknown" fallback case if the type discriminator could not be parsed successfully.
-  static var unknown: Self { get }
-
   /// Returns the class type of the object corresponding to the value.
   func getType() -> AnyObject.Type
 }
@@ -37,7 +34,7 @@ extension KeyedDecodingContainer {
     var tmpContainer = container
     while !container.isAtEnd {
       let typeContainer = try container.nestedContainer(keyedBy: Discriminator.self)
-      let family: U = (try? typeContainer.decodeIfPresent(U.self, forKey: U.discriminator)) ?? .unknown
+      let family: U = try typeContainer.decode(U.self, forKey: U.discriminator)
       if let type = family.getType() as? T.Type {
         list.append(try tmpContainer.decode(type))
       }
@@ -63,7 +60,7 @@ extension KeyedDecodingContainer {
     var tmpContainer = container
     while !container.isAtEnd {
       let typeContainer = try container.nestedContainer(keyedBy: Discriminator.self)
-      let family: U = (try? typeContainer.decodeIfPresent(U.self, forKey: U.discriminator)) ?? .unknown
+      let family: U = try typeContainer.decode(U.self, forKey: U.discriminator)
       if let type = family.getType() as? T.Type {
         list.append(try tmpContainer.decode(type))
       }

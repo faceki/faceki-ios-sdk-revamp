@@ -1,7 +1,6 @@
 // Created by eric_horacek on 3/3/22.
 // Copyright © 2022 Airbnb Inc. All rights reserved.
 
-#if canImport(SwiftUI)
 import SwiftUI
 
 // MARK: - ViewTypeProtocol + swiftUIView
@@ -39,4 +38,3 @@ protocol ViewTypeProtocol: ViewType { }
 // MARK: - ViewType + ViewTypeProtocol
 
 extension ViewType: ViewTypeProtocol { }
-#endif

@@ -1,7 +1,6 @@
 // Created by Bryn Bodayle on 1/24/22.
 // Copyright © 2022 Airbnb Inc. All rights reserved.
 
-#if canImport(SwiftUI)
 import SwiftUI
 
 // MARK: - SwiftUIMeasurementContainer
@@ -451,4 +450,3 @@ extension CGSize {
       height: height == ViewType.noIntrinsicMetric ? fallback.height : height)
   }
 }
-#endif

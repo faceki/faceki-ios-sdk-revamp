@@ -1,7 +1,6 @@
 // Created by eric_horacek on 9/13/21.
 // Copyright © 2021 Airbnb Inc. All rights reserved.
 
-#if canImport(SwiftUI)
 import SwiftUI
 
 // MARK: - StyledView
@@ -171,4 +170,3 @@ extension StyledView
     }
   }
 }
-#endif

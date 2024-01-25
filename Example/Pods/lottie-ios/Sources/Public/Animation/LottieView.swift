@@ -1,7 +1,6 @@
 // Created by Bryn Bodayle on 1/20/22.
 // Copyright © 2022 Airbnb Inc. All rights reserved.
 
-#if canImport(SwiftUI)
 import SwiftUI
 
 // MARK: - LottieView
@@ -481,4 +480,3 @@ public struct LottieView<Placeholder: View>: UIViewConfiguringSwiftUIView {
     loadAnimationIfNecessary()
   }
 }
-#endif

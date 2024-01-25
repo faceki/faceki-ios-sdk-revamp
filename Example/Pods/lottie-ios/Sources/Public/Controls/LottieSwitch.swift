@@ -1,7 +1,6 @@
 // Created by Cal Stephens on 8/11/23.
 // Copyright © 2023 Airbnb Inc. All rights reserved.
 
-#if canImport(SwiftUI)
 import SwiftUI
 
 /// A wrapper which exposes Lottie's `AnimatedSwitch` to SwiftUI
@@ -143,4 +142,3 @@ public struct LottieSwitch: UIViewConfiguringSwiftUIView {
   private var isOn: Binding<Bool>?
 
 }
-#endif

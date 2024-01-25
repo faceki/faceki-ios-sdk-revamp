@@ -1,7 +1,6 @@
 // Created by Cal Stephens on 8/14/23.
 // Copyright © 2023 Airbnb Inc. All rights reserved.
 
-#if canImport(SwiftUI)
 import SwiftUI
 
 /// A wrapper which exposes Lottie's `AnimatedButton` to SwiftUI
@@ -119,5 +118,5 @@ public struct LottieButton: UIViewConfiguringSwiftUIView {
   private let animation: LottieAnimation?
   private let action: () -> Void
   private var configuration: LottieConfiguration = .shared
+
 }
-#endif

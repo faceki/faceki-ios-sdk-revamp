@@ -1,7 +1,6 @@
 // Created by miguel_jimenez on 7/27/23.
 // Copyright © 2023 Airbnb Inc. All rights reserved.
 
-#if canImport(SwiftUI)
 import SwiftUI
 
 @available(iOS 13.0, tvOS 13.0, macOS 10.15, *)
@@ -17,4 +16,3 @@ extension Binding {
     }
   }
 }
-#endif

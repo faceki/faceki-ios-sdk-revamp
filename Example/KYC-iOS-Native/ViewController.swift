@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import KYC_iOS_Native
+import FACEKI_KYC_IOS_V2
 
 class ViewController: UIViewController {
 

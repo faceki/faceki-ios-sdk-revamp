@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## KYC-iOS-Native
+## FACEKI-KYC-IOS-V2
 
 Copyright (c) 2022 faceki <info@faceki.com>
 
