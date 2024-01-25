@@ -97,8 +97,8 @@ class YourViewController: UIViewController {
 
 ## Requirements
 
-- Swift 5.0
-- iOS 13.0 and later
+- Swift 4.0
+- iOS 12.0 and later
 
 ## License
 

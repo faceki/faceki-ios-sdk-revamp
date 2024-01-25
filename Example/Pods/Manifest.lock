@@ -1,0 +1,28 @@
+PODS:
+  - FACEKI-KYC-IOS-V2 (2.0.0):
+    - lottie-ios
+  - lottie-ios (4.3.3)
+
+DEPENDENCIES:
+  - FACEKI-KYC-IOS-V2 (from `https://github.com/faceki/faceki-ios-sdk-revamp.git`)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  FACEKI-KYC-IOS-V2:
+    :git: https://github.com/faceki/faceki-ios-sdk-revamp.git
+
+CHECKOUT OPTIONS:
+  FACEKI-KYC-IOS-V2:
+    :commit: 8bb143ef61fb4b0826154a38248a5e4e7b7d1479
+    :git: https://github.com/faceki/faceki-ios-sdk-revamp.git
+
+SPEC CHECKSUMS:
+  FACEKI-KYC-IOS-V2: 8e227205e664c2b34daf0e033354bdc00690c921
+  lottie-ios: 25e7b2675dad5c3ddad369ac9baab03560c5bfdd
+
+PODFILE CHECKSUM: 615abe3d4ee7f96a8896279340a066667096353b
+
+COCOAPODS: 1.12.1
